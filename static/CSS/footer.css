@@ -1,58 +1,17 @@
-footer
-{
+footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    height: 20vh;
-    width: 75%;
-    margin: auto;
-    opacity: 0.2;
-    border-top: 1px solid #212121;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
 }
 
-footer:hover
-{
-    animation: fade 0.3s ease;
-    opacity: 0.9;
+footer a {
+    margin: 0 10px;
 }
 
-.social-media-img
-{
-    height: 5vh;
-}
-
-.codecell-img
-{
-    height: 10vh;
-}
-
-@keyframes fade
-{
-    0%
-    {
-        opacity: 0.2;
-    }
-
-    100%
-    {
-        opacity: 0.9;
-    }
-}
-
-/* Media queries */
-
-@media screen and (max-width: 1295px)
-{
-    footer
-    {
-        width: 95%;
-    }
-}
-
-@media screen and (max-width: 500px)
-{
-    footer
-    {
-        opacity: 0.9;
-    }
+footer img {
+    width: 30px;
+    height: 30px;
 }
