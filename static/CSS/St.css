@@ -1,0 +1,124 @@
+/* base.css */
+body {
+    font-family: 'Overpass Mono', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.burger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 21px;
+    cursor: pointer;
+}
+
+.burger-menu .line-1, .burger-menu .line-2, .burger-menu .line-3 {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.account img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.dropdown {
+    display: none;
+}
+
+.dropdown-caret::after {
+    content: '\25BC';
+    display: inline-block;
+    margin-left: 5px;
+}
+
+/* Style.css */
+.title {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.title-info {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-group, .textarea-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+/* footer.css */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+footer a {
+    margin: 0 10px;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+}
